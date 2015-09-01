@@ -21,7 +21,7 @@ public:
 		{
 			if (prices[i] < curMin)
 			{
-				curMin = prices[i];
+				curMin = prices[i]; 
 			}
 
 			curMaxProfit = max(curMaxProfit, prices[i] - curMin);
