@@ -37,7 +37,7 @@ public:
 			}
 		}
 
-		return i == pattern.size() && !(istr>>word);
+		return  !(istr>>word);
 	}
 
 private:

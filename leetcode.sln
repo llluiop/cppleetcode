@@ -99,6 +99,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Isomorphic Strings", "Isomo
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Word Pattern", "Word Pattern\Word Pattern.vcxproj", "{20BF5C24-64AD-4630-B89C-70B873B07D10}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Remove Linked List Elements", "Remove Linked List Elements\Remove Linked List Elements.vcxproj", "{B0851867-D8E1-48B4-B7AB-54F8ADCB3BC4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -297,6 +299,10 @@ Global
 		{20BF5C24-64AD-4630-B89C-70B873B07D10}.Debug|Win32.Build.0 = Debug|Win32
 		{20BF5C24-64AD-4630-B89C-70B873B07D10}.Release|Win32.ActiveCfg = Release|Win32
 		{20BF5C24-64AD-4630-B89C-70B873B07D10}.Release|Win32.Build.0 = Release|Win32
+		{B0851867-D8E1-48B4-B7AB-54F8ADCB3BC4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B0851867-D8E1-48B4-B7AB-54F8ADCB3BC4}.Debug|Win32.Build.0 = Debug|Win32
+		{B0851867-D8E1-48B4-B7AB-54F8ADCB3BC4}.Release|Win32.ActiveCfg = Release|Win32
+		{B0851867-D8E1-48B4-B7AB-54F8ADCB3BC4}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
