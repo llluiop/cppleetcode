@@ -4,7 +4,7 @@
 #include <string>
 #include <vector>
 #include <sstream>
-
+#include <stack>
 using namespace std;
 
 struct TreeNode {
@@ -24,7 +24,7 @@ public:
 			return v;
 		}
 
-		preorderTraversalRecursive(root, v);
+		preorderTraversalIterative(root, v);
 		return std::move(v);		
 	}
 
@@ -40,6 +40,26 @@ private:
 		if (root->right != nullptr)
 		{
 			preorderTraversalRecursive(root->right, nodes);
+		}
+	}
+
+	void preorderTraversalIterative(TreeNode* root, vector<int>& nodes)
+	{
+		std::stack<TreeNode*> s;
+
+
+		while (root || !s.empty())
+		{
+			while (root)
+			{
+				nodes.push_back(root->val);
+				s.push(root);
+				root = root->left;
+			}
+
+			root = s.top();
+			root = root->right;
+			s.pop();
 		}
 	}
 };
