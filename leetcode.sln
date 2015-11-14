@@ -119,6 +119,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Implement strStr()", "Imple
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Reverse Integer", "Reverse Integer\Reverse Integer.vcxproj", "{17A1CBA6-4471-47D1-A5E9-3B35A9A0EE66}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Valid Palindrome", "Valid Palindrome\Valid Palindrome.vcxproj", "{A7DCBA21-AD58-487D-9D11-94FD184D882A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -357,6 +359,10 @@ Global
 		{17A1CBA6-4471-47D1-A5E9-3B35A9A0EE66}.Debug|Win32.Build.0 = Debug|Win32
 		{17A1CBA6-4471-47D1-A5E9-3B35A9A0EE66}.Release|Win32.ActiveCfg = Release|Win32
 		{17A1CBA6-4471-47D1-A5E9-3B35A9A0EE66}.Release|Win32.Build.0 = Release|Win32
+		{A7DCBA21-AD58-487D-9D11-94FD184D882A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A7DCBA21-AD58-487D-9D11-94FD184D882A}.Debug|Win32.Build.0 = Debug|Win32
+		{A7DCBA21-AD58-487D-9D11-94FD184D882A}.Release|Win32.ActiveCfg = Release|Win32
+		{A7DCBA21-AD58-487D-9D11-94FD184D882A}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
