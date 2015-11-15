@@ -127,6 +127,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Count Primes", "Count Prime
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Single Number", "Single Number\Single Number.vcxproj", "{7AFF339A-DCAB-4D97-9671-7B7D361D9121}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Single Number III", "Single Number III\Single Number III.vcxproj", "{81BA6338-455B-4F32-BECB-49251F286C94}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -381,6 +383,10 @@ Global
 		{7AFF339A-DCAB-4D97-9671-7B7D361D9121}.Debug|Win32.Build.0 = Debug|Win32
 		{7AFF339A-DCAB-4D97-9671-7B7D361D9121}.Release|Win32.ActiveCfg = Release|Win32
 		{7AFF339A-DCAB-4D97-9671-7B7D361D9121}.Release|Win32.Build.0 = Release|Win32
+		{81BA6338-455B-4F32-BECB-49251F286C94}.Debug|Win32.ActiveCfg = Debug|Win32
+		{81BA6338-455B-4F32-BECB-49251F286C94}.Debug|Win32.Build.0 = Debug|Win32
+		{81BA6338-455B-4F32-BECB-49251F286C94}.Release|Win32.ActiveCfg = Release|Win32
+		{81BA6338-455B-4F32-BECB-49251F286C94}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
