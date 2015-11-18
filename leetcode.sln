@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "leetcode", "leetcode\leetcode.vcxproj", "{D22CC70B-ECF6-470A-A6EB-5A3FF131A1A7}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Distinct SubSequences", "Distinct SubSequences\Distinct SubSequences.vcxproj", "{8E8538BC-AEB9-49EA-951E-FFC062DC2049}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Reoder List", "Reoder List\Reoder List.vcxproj", "{B41890B1-10DE-4DEC-A172-6AC184B5D0E6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Win32 = Release|Win32
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D22CC70B-ECF6-470A-A6EB-5A3FF131A1A7}.Debug|Win32.ActiveCfg = Debug|Win32
-		{D22CC70B-ECF6-470A-A6EB-5A3FF131A1A7}.Debug|Win32.Build.0 = Debug|Win32
-		{D22CC70B-ECF6-470A-A6EB-5A3FF131A1A7}.Release|Win32.ActiveCfg = Release|Win32
-		{D22CC70B-ECF6-470A-A6EB-5A3FF131A1A7}.Release|Win32.Build.0 = Release|Win32
+		{8E8538BC-AEB9-49EA-951E-FFC062DC2049}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8E8538BC-AEB9-49EA-951E-FFC062DC2049}.Debug|Win32.Build.0 = Debug|Win32
+		{8E8538BC-AEB9-49EA-951E-FFC062DC2049}.Release|Win32.ActiveCfg = Release|Win32
+		{8E8538BC-AEB9-49EA-951E-FFC062DC2049}.Release|Win32.Build.0 = Release|Win32
+		{B41890B1-10DE-4DEC-A172-6AC184B5D0E6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B41890B1-10DE-4DEC-A172-6AC184B5D0E6}.Debug|Win32.Build.0 = Debug|Win32
+		{B41890B1-10DE-4DEC-A172-6AC184B5D0E6}.Release|Win32.ActiveCfg = Release|Win32
+		{B41890B1-10DE-4DEC-A172-6AC184B5D0E6}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
