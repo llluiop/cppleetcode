@@ -13,6 +13,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Add Digits", "Add Digits\Ad
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Maximum Depth of Binary Tree", "Maximum Depth of Binary Tree\Maximum Depth of Binary Tree.vcxproj", "{FCC0779E-62D8-45E6-B483-6B274A4B3B55}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Delete Node in a Linked List", "Delete Node in a Linked List\Delete Node in a Linked List.vcxproj", "{010B8A4F-D69B-4335-9AAF-BF86528291FB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -39,6 +41,10 @@ Global
 		{FCC0779E-62D8-45E6-B483-6B274A4B3B55}.Debug|Win32.Build.0 = Debug|Win32
 		{FCC0779E-62D8-45E6-B483-6B274A4B3B55}.Release|Win32.ActiveCfg = Release|Win32
 		{FCC0779E-62D8-45E6-B483-6B274A4B3B55}.Release|Win32.Build.0 = Release|Win32
+		{010B8A4F-D69B-4335-9AAF-BF86528291FB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{010B8A4F-D69B-4335-9AAF-BF86528291FB}.Debug|Win32.Build.0 = Debug|Win32
+		{010B8A4F-D69B-4335-9AAF-BF86528291FB}.Release|Win32.ActiveCfg = Release|Win32
+		{010B8A4F-D69B-4335-9AAF-BF86528291FB}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
