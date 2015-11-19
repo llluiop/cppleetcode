@@ -9,6 +9,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Reoder List", "Reoder List\
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Nim", "Nim\Nim.vcxproj", "{4D10DCB2-E4D5-4591-A51C-DA82FF920C48}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Add Digits", "Add Digits\Add Digits.vcxproj", "{77A4B00A-1D58-4BCA-A077-B405D860D86C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Maximum Depth of Binary Tree", "Maximum Depth of Binary Tree\Maximum Depth of Binary Tree.vcxproj", "{FCC0779E-62D8-45E6-B483-6B274A4B3B55}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -27,6 +31,14 @@ Global
 		{4D10DCB2-E4D5-4591-A51C-DA82FF920C48}.Debug|Win32.Build.0 = Debug|Win32
 		{4D10DCB2-E4D5-4591-A51C-DA82FF920C48}.Release|Win32.ActiveCfg = Release|Win32
 		{4D10DCB2-E4D5-4591-A51C-DA82FF920C48}.Release|Win32.Build.0 = Release|Win32
+		{77A4B00A-1D58-4BCA-A077-B405D860D86C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{77A4B00A-1D58-4BCA-A077-B405D860D86C}.Debug|Win32.Build.0 = Debug|Win32
+		{77A4B00A-1D58-4BCA-A077-B405D860D86C}.Release|Win32.ActiveCfg = Release|Win32
+		{77A4B00A-1D58-4BCA-A077-B405D860D86C}.Release|Win32.Build.0 = Release|Win32
+		{FCC0779E-62D8-45E6-B483-6B274A4B3B55}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FCC0779E-62D8-45E6-B483-6B274A4B3B55}.Debug|Win32.Build.0 = Debug|Win32
+		{FCC0779E-62D8-45E6-B483-6B274A4B3B55}.Release|Win32.ActiveCfg = Release|Win32
+		{FCC0779E-62D8-45E6-B483-6B274A4B3B55}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
