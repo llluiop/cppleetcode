@@ -21,6 +21,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Move Zeroes", "Move Zeroes\
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Invert Binary Tree", "Invert Binary Tree\Invert Binary Tree.vcxproj", "{F54DEBD0-9071-41E1-A29B-E40B22B33D51}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Contains Duplicate", "Contains Duplicate\Contains Duplicate.vcxproj", "{6520DB6D-400F-4FF5-8675-2F71651A5390}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -63,6 +65,10 @@ Global
 		{F54DEBD0-9071-41E1-A29B-E40B22B33D51}.Debug|Win32.Build.0 = Debug|Win32
 		{F54DEBD0-9071-41E1-A29B-E40B22B33D51}.Release|Win32.ActiveCfg = Release|Win32
 		{F54DEBD0-9071-41E1-A29B-E40B22B33D51}.Release|Win32.Build.0 = Release|Win32
+		{6520DB6D-400F-4FF5-8675-2F71651A5390}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6520DB6D-400F-4FF5-8675-2F71651A5390}.Debug|Win32.Build.0 = Debug|Win32
+		{6520DB6D-400F-4FF5-8675-2F71651A5390}.Release|Win32.ActiveCfg = Release|Win32
+		{6520DB6D-400F-4FF5-8675-2F71651A5390}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
