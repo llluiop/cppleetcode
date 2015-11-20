@@ -25,6 +25,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Contains Duplicate", "Conta
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Valid Anagram", "Valid Anagram\Valid Anagram.vcxproj", "{006C6AD9-9F29-413C-9CB9-BAC534917975}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Excel Sheet Column Number", "Excel Sheet Column Number\Excel Sheet Column Number.vcxproj", "{CCE1B70F-150D-4D9C-BFBD-182D7735C2EF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -75,6 +77,10 @@ Global
 		{006C6AD9-9F29-413C-9CB9-BAC534917975}.Debug|Win32.Build.0 = Debug|Win32
 		{006C6AD9-9F29-413C-9CB9-BAC534917975}.Release|Win32.ActiveCfg = Release|Win32
 		{006C6AD9-9F29-413C-9CB9-BAC534917975}.Release|Win32.Build.0 = Release|Win32
+		{CCE1B70F-150D-4D9C-BFBD-182D7735C2EF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CCE1B70F-150D-4D9C-BFBD-182D7735C2EF}.Debug|Win32.Build.0 = Debug|Win32
+		{CCE1B70F-150D-4D9C-BFBD-182D7735C2EF}.Release|Win32.ActiveCfg = Release|Win32
+		{CCE1B70F-150D-4D9C-BFBD-182D7735C2EF}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
