@@ -13,7 +13,7 @@ public:
 		for (int i = 0; i < len; i++)
 		{
 			num *= 26;
-			num += (s[i] - 64);
+			num += (s[i] - 64); //better: s[i]-'A'+1
 		}
 
 		return num;
