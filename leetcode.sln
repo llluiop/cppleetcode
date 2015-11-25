@@ -39,6 +39,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Remove Duplicates from Sort
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Climbing Stairs", "Climbing Stairs\Climbing Stairs.vcxproj", "{07A49A16-4DC0-4A8C-A804-88B4994AB1C3}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ugly Number", "Ugly Number\Ugly Number.vcxproj", "{58E65E19-DE2B-44E4-9A11-2C74C3A5F8B4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -117,6 +119,10 @@ Global
 		{07A49A16-4DC0-4A8C-A804-88B4994AB1C3}.Debug|Win32.Build.0 = Debug|Win32
 		{07A49A16-4DC0-4A8C-A804-88B4994AB1C3}.Release|Win32.ActiveCfg = Release|Win32
 		{07A49A16-4DC0-4A8C-A804-88B4994AB1C3}.Release|Win32.Build.0 = Release|Win32
+		{58E65E19-DE2B-44E4-9A11-2C74C3A5F8B4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{58E65E19-DE2B-44E4-9A11-2C74C3A5F8B4}.Debug|Win32.Build.0 = Debug|Win32
+		{58E65E19-DE2B-44E4-9A11-2C74C3A5F8B4}.Release|Win32.ActiveCfg = Release|Win32
+		{58E65E19-DE2B-44E4-9A11-2C74C3A5F8B4}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
