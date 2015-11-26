@@ -43,6 +43,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ugly Number", "Ugly Number\
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Happy Number", "Happy Number\Happy Number.vcxproj", "{67F77D41-CC50-41C9-B2EA-80F81AA9F624}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Implement Queue using Stacks", "Implement Queue using Stacks\Implement Queue using Stacks.vcxproj", "{6D99239E-3E2C-4B46-AA50-49629152C945}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -129,6 +131,10 @@ Global
 		{67F77D41-CC50-41C9-B2EA-80F81AA9F624}.Debug|Win32.Build.0 = Debug|Win32
 		{67F77D41-CC50-41C9-B2EA-80F81AA9F624}.Release|Win32.ActiveCfg = Release|Win32
 		{67F77D41-CC50-41C9-B2EA-80F81AA9F624}.Release|Win32.Build.0 = Release|Win32
+		{6D99239E-3E2C-4B46-AA50-49629152C945}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6D99239E-3E2C-4B46-AA50-49629152C945}.Debug|Win32.Build.0 = Debug|Win32
+		{6D99239E-3E2C-4B46-AA50-49629152C945}.Release|Win32.ActiveCfg = Release|Win32
+		{6D99239E-3E2C-4B46-AA50-49629152C945}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
