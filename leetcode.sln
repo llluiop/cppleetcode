@@ -45,6 +45,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Happy Number", "Happy Numbe
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Implement Queue using Stacks", "Implement Queue using Stacks\Implement Queue using Stacks.vcxproj", "{6D99239E-3E2C-4B46-AA50-49629152C945}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Merge Two Sorted Lists", "Merge Two Sorted Lists\Merge Two Sorted Lists.vcxproj", "{BB28BEBA-660F-43A7-984F-828CF8236513}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -135,6 +137,10 @@ Global
 		{6D99239E-3E2C-4B46-AA50-49629152C945}.Debug|Win32.Build.0 = Debug|Win32
 		{6D99239E-3E2C-4B46-AA50-49629152C945}.Release|Win32.ActiveCfg = Release|Win32
 		{6D99239E-3E2C-4B46-AA50-49629152C945}.Release|Win32.Build.0 = Release|Win32
+		{BB28BEBA-660F-43A7-984F-828CF8236513}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BB28BEBA-660F-43A7-984F-828CF8236513}.Debug|Win32.Build.0 = Debug|Win32
+		{BB28BEBA-660F-43A7-984F-828CF8236513}.Release|Win32.ActiveCfg = Release|Win32
+		{BB28BEBA-660F-43A7-984F-828CF8236513}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
