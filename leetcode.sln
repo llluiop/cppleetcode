@@ -47,6 +47,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Implement Queue using Stack
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Merge Two Sorted Lists", "Merge Two Sorted Lists\Merge Two Sorted Lists.vcxproj", "{BB28BEBA-660F-43A7-984F-828CF8236513}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Power of Tow", "Power of Tow\Power of Tow.vcxproj", "{C51C3AA5-0A79-451C-8021-AB82F9102A36}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Balanced Binary Tree", "Balanced Binary Tree\Balanced Binary Tree.vcxproj", "{EF7353C6-42E6-4D81-88BF-D31C0633434A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -141,6 +145,14 @@ Global
 		{BB28BEBA-660F-43A7-984F-828CF8236513}.Debug|Win32.Build.0 = Debug|Win32
 		{BB28BEBA-660F-43A7-984F-828CF8236513}.Release|Win32.ActiveCfg = Release|Win32
 		{BB28BEBA-660F-43A7-984F-828CF8236513}.Release|Win32.Build.0 = Release|Win32
+		{C51C3AA5-0A79-451C-8021-AB82F9102A36}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C51C3AA5-0A79-451C-8021-AB82F9102A36}.Debug|Win32.Build.0 = Debug|Win32
+		{C51C3AA5-0A79-451C-8021-AB82F9102A36}.Release|Win32.ActiveCfg = Release|Win32
+		{C51C3AA5-0A79-451C-8021-AB82F9102A36}.Release|Win32.Build.0 = Release|Win32
+		{EF7353C6-42E6-4D81-88BF-D31C0633434A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EF7353C6-42E6-4D81-88BF-D31C0633434A}.Debug|Win32.Build.0 = Debug|Win32
+		{EF7353C6-42E6-4D81-88BF-D31C0633434A}.Release|Win32.ActiveCfg = Release|Win32
+		{EF7353C6-42E6-4D81-88BF-D31C0633434A}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

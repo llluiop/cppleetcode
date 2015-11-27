@@ -1,3 +1,4 @@
+#include <iostream>
 class Solution {
 public:
 	bool isPowerOfTwo(int n) {
@@ -9,3 +10,8 @@ public:
 		return !(n = n&(n - 1));
 	}
 };
+
+int main()
+{
+	return getchar();
+}
