@@ -53,6 +53,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Balanced Binary Tree", "Bal
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Symmetric Tree", "Symmetric Tree\Symmetric Tree.vcxproj", "{F29A0692-4B24-4778-A43C-839BDC0DB966}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Remove Element", "Remove Element\Remove Element.vcxproj", "{A0705B9F-8767-429B-9912-3DB15BF309B7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -159,6 +161,10 @@ Global
 		{F29A0692-4B24-4778-A43C-839BDC0DB966}.Debug|Win32.Build.0 = Debug|Win32
 		{F29A0692-4B24-4778-A43C-839BDC0DB966}.Release|Win32.ActiveCfg = Release|Win32
 		{F29A0692-4B24-4778-A43C-839BDC0DB966}.Release|Win32.Build.0 = Release|Win32
+		{A0705B9F-8767-429B-9912-3DB15BF309B7}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A0705B9F-8767-429B-9912-3DB15BF309B7}.Debug|Win32.Build.0 = Debug|Win32
+		{A0705B9F-8767-429B-9912-3DB15BF309B7}.Release|Win32.ActiveCfg = Release|Win32
+		{A0705B9F-8767-429B-9912-3DB15BF309B7}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
