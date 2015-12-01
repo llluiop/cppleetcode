@@ -57,6 +57,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Remove Element", "Remove El
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Remove Duplicates from Sorted Array", "Remove Duplicates from Sorted Array\Remove Duplicates from Sorted Array.vcxproj", "{601B205D-D170-40C9-9B6B-9E725EDF817F}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Binary Tree Level Order Traversal II", "Binary Tree Level Order Traversal II\Binary Tree Level Order Traversal II.vcxproj", "{CBCC8AE5-D021-4124-88CF-5643B0532D49}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -171,6 +173,10 @@ Global
 		{601B205D-D170-40C9-9B6B-9E725EDF817F}.Debug|Win32.Build.0 = Debug|Win32
 		{601B205D-D170-40C9-9B6B-9E725EDF817F}.Release|Win32.ActiveCfg = Release|Win32
 		{601B205D-D170-40C9-9B6B-9E725EDF817F}.Release|Win32.Build.0 = Release|Win32
+		{CBCC8AE5-D021-4124-88CF-5643B0532D49}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CBCC8AE5-D021-4124-88CF-5643B0532D49}.Debug|Win32.Build.0 = Debug|Win32
+		{CBCC8AE5-D021-4124-88CF-5643B0532D49}.Release|Win32.ActiveCfg = Release|Win32
+		{CBCC8AE5-D021-4124-88CF-5643B0532D49}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
