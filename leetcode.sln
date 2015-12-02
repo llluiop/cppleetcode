@@ -59,6 +59,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Remove Duplicates from Sort
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Binary Tree Level Order Traversal II", "Binary Tree Level Order Traversal II\Binary Tree Level Order Traversal II.vcxproj", "{CBCC8AE5-D021-4124-88CF-5643B0532D49}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Binary Tree Level Order Traversal", "Binary Tree Level Order Traversal\Binary Tree Level Order Traversal.vcxproj", "{C37A2A55-9549-443C-AE7B-63726FC699D5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "House Robber", "House Robber\House Robber.vcxproj", "{3293E7EB-D9B9-4815-90A2-2F54578CF2E4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -177,6 +181,14 @@ Global
 		{CBCC8AE5-D021-4124-88CF-5643B0532D49}.Debug|Win32.Build.0 = Debug|Win32
 		{CBCC8AE5-D021-4124-88CF-5643B0532D49}.Release|Win32.ActiveCfg = Release|Win32
 		{CBCC8AE5-D021-4124-88CF-5643B0532D49}.Release|Win32.Build.0 = Release|Win32
+		{C37A2A55-9549-443C-AE7B-63726FC699D5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C37A2A55-9549-443C-AE7B-63726FC699D5}.Debug|Win32.Build.0 = Debug|Win32
+		{C37A2A55-9549-443C-AE7B-63726FC699D5}.Release|Win32.ActiveCfg = Release|Win32
+		{C37A2A55-9549-443C-AE7B-63726FC699D5}.Release|Win32.Build.0 = Release|Win32
+		{3293E7EB-D9B9-4815-90A2-2F54578CF2E4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3293E7EB-D9B9-4815-90A2-2F54578CF2E4}.Debug|Win32.Build.0 = Debug|Win32
+		{3293E7EB-D9B9-4815-90A2-2F54578CF2E4}.Release|Win32.ActiveCfg = Release|Win32
+		{3293E7EB-D9B9-4815-90A2-2F54578CF2E4}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
