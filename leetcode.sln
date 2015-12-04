@@ -65,6 +65,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "House Robber", "House Robbe
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Plus One", "Plus One\Plus One.vcxproj", "{42725607-BDE1-4714-93DF-2365EB229767}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Pascal's Triangle", "Pascal's Triangle\Pascal's Triangle.vcxproj", "{EE5CEE9B-CFB3-4DFE-8DE4-60CAF5324CFF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -195,6 +197,10 @@ Global
 		{42725607-BDE1-4714-93DF-2365EB229767}.Debug|Win32.Build.0 = Debug|Win32
 		{42725607-BDE1-4714-93DF-2365EB229767}.Release|Win32.ActiveCfg = Release|Win32
 		{42725607-BDE1-4714-93DF-2365EB229767}.Release|Win32.Build.0 = Release|Win32
+		{EE5CEE9B-CFB3-4DFE-8DE4-60CAF5324CFF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EE5CEE9B-CFB3-4DFE-8DE4-60CAF5324CFF}.Debug|Win32.Build.0 = Debug|Win32
+		{EE5CEE9B-CFB3-4DFE-8DE4-60CAF5324CFF}.Release|Win32.ActiveCfg = Release|Win32
+		{EE5CEE9B-CFB3-4DFE-8DE4-60CAF5324CFF}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
