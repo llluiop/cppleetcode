@@ -5,7 +5,7 @@ using namespace std;
 class Solution {
 public:
 	//time limit exceeded
-	int trailingZeroes(int n) {
+	/*int trailingZeroes(int n) {
 		int count = 0;
 		for (int i = 5; i <= n; i=i+5)
 		{
@@ -18,7 +18,7 @@ public:
 		}
 
 		return count;
-	}
+	}*/
 
 	//[N/5]+[N/(5*5)]+[N/(5*5*5)]+...
 	//equals: [N/5]+[(N/5)/5]+[(N/5/5)/5]+...

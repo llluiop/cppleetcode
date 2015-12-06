@@ -69,6 +69,12 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Pascal's Triangle", "Pascal
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Factorial Trailing Zeroes", "Factorial Trailing Zeroes\Factorial Trailing Zeroes.vcxproj", "{473AF612-81E0-41FD-A254-73105724DD0B}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Pascal's Triangle II", "Pascal's Triangle II\Pascal's Triangle II.vcxproj", "{692079D6-F3DB-45B3-9A5B-3CE1075DF809}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Path Sum", "Path Sum\Path Sum.vcxproj", "{B8EFFB57-557A-4994-8C19-B056FAFB8797}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Implement Stack using Queues", "Implement Stack using Queues\Implement Stack using Queues.vcxproj", "{62E5B040-B354-496B-BF03-055CE461B582}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -207,6 +213,18 @@ Global
 		{473AF612-81E0-41FD-A254-73105724DD0B}.Debug|Win32.Build.0 = Debug|Win32
 		{473AF612-81E0-41FD-A254-73105724DD0B}.Release|Win32.ActiveCfg = Release|Win32
 		{473AF612-81E0-41FD-A254-73105724DD0B}.Release|Win32.Build.0 = Release|Win32
+		{692079D6-F3DB-45B3-9A5B-3CE1075DF809}.Debug|Win32.ActiveCfg = Debug|Win32
+		{692079D6-F3DB-45B3-9A5B-3CE1075DF809}.Debug|Win32.Build.0 = Debug|Win32
+		{692079D6-F3DB-45B3-9A5B-3CE1075DF809}.Release|Win32.ActiveCfg = Release|Win32
+		{692079D6-F3DB-45B3-9A5B-3CE1075DF809}.Release|Win32.Build.0 = Release|Win32
+		{B8EFFB57-557A-4994-8C19-B056FAFB8797}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B8EFFB57-557A-4994-8C19-B056FAFB8797}.Debug|Win32.Build.0 = Debug|Win32
+		{B8EFFB57-557A-4994-8C19-B056FAFB8797}.Release|Win32.ActiveCfg = Release|Win32
+		{B8EFFB57-557A-4994-8C19-B056FAFB8797}.Release|Win32.Build.0 = Release|Win32
+		{62E5B040-B354-496B-BF03-055CE461B582}.Debug|Win32.ActiveCfg = Debug|Win32
+		{62E5B040-B354-496B-BF03-055CE461B582}.Debug|Win32.Build.0 = Debug|Win32
+		{62E5B040-B354-496B-BF03-055CE461B582}.Release|Win32.ActiveCfg = Release|Win32
+		{62E5B040-B354-496B-BF03-055CE461B582}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
