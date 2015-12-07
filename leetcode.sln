@@ -75,6 +75,14 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Path Sum", "Path Sum\Path S
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Implement Stack using Queues", "Implement Stack using Queues\Implement Stack using Queues.vcxproj", "{62E5B040-B354-496B-BF03-055CE461B582}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Palindrome Number", "Palindrome Number\Palindrome Number.vcxproj", "{3170574B-2CAD-4266-96F9-EA01AFFB3B17}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Minimum Depth of Binary Tree", "Minimum Depth of Binary Tree\Minimum Depth of Binary Tree.vcxproj", "{2E4F9DD6-8A26-4A0F-84A2-FA5B97168D79}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Merge Sorted Array", "Merge Sorted Array\Merge Sorted Array.vcxproj", "{BB17F00A-3BCF-42F0-A883-355204285484}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Reverse Bits", "Reverse Bits\Reverse Bits.vcxproj", "{AE89C8ED-DD18-4860-843F-757299F095EA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -225,6 +233,22 @@ Global
 		{62E5B040-B354-496B-BF03-055CE461B582}.Debug|Win32.Build.0 = Debug|Win32
 		{62E5B040-B354-496B-BF03-055CE461B582}.Release|Win32.ActiveCfg = Release|Win32
 		{62E5B040-B354-496B-BF03-055CE461B582}.Release|Win32.Build.0 = Release|Win32
+		{3170574B-2CAD-4266-96F9-EA01AFFB3B17}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3170574B-2CAD-4266-96F9-EA01AFFB3B17}.Debug|Win32.Build.0 = Debug|Win32
+		{3170574B-2CAD-4266-96F9-EA01AFFB3B17}.Release|Win32.ActiveCfg = Release|Win32
+		{3170574B-2CAD-4266-96F9-EA01AFFB3B17}.Release|Win32.Build.0 = Release|Win32
+		{2E4F9DD6-8A26-4A0F-84A2-FA5B97168D79}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2E4F9DD6-8A26-4A0F-84A2-FA5B97168D79}.Debug|Win32.Build.0 = Debug|Win32
+		{2E4F9DD6-8A26-4A0F-84A2-FA5B97168D79}.Release|Win32.ActiveCfg = Release|Win32
+		{2E4F9DD6-8A26-4A0F-84A2-FA5B97168D79}.Release|Win32.Build.0 = Release|Win32
+		{BB17F00A-3BCF-42F0-A883-355204285484}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BB17F00A-3BCF-42F0-A883-355204285484}.Debug|Win32.Build.0 = Debug|Win32
+		{BB17F00A-3BCF-42F0-A883-355204285484}.Release|Win32.ActiveCfg = Release|Win32
+		{BB17F00A-3BCF-42F0-A883-355204285484}.Release|Win32.Build.0 = Release|Win32
+		{AE89C8ED-DD18-4860-843F-757299F095EA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AE89C8ED-DD18-4860-843F-757299F095EA}.Debug|Win32.Build.0 = Debug|Win32
+		{AE89C8ED-DD18-4860-843F-757299F095EA}.Release|Win32.ActiveCfg = Release|Win32
+		{AE89C8ED-DD18-4860-843F-757299F095EA}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -11,8 +11,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{3170574B-2CAD-4266-96F9-EA01AFFB3B17}</ProjectGuid>
-    <RootNamespace>PalindromeNumber</RootNamespace>
+    <ProjectGuid>{2E4F9DD6-8A26-4A0F-84A2-FA5B97168D79}</ProjectGuid>
+    <RootNamespace>MinimumDepthofBinaryTree</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -63,6 +63,9 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="tree.h" />
+  </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
   </ItemGroup>
