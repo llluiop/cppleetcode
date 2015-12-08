@@ -83,6 +83,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Merge Sorted Array", "Merge
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Reverse Bits", "Reverse Bits\Reverse Bits.vcxproj", "{AE89C8ED-DD18-4860-843F-757299F095EA}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Valid Sudoku", "Valid Sudoku\Valid Sudoku.vcxproj", "{07835ED8-F8D5-4D54-8AD2-317DAF7B7DDE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -249,6 +251,10 @@ Global
 		{AE89C8ED-DD18-4860-843F-757299F095EA}.Debug|Win32.Build.0 = Debug|Win32
 		{AE89C8ED-DD18-4860-843F-757299F095EA}.Release|Win32.ActiveCfg = Release|Win32
 		{AE89C8ED-DD18-4860-843F-757299F095EA}.Release|Win32.Build.0 = Release|Win32
+		{07835ED8-F8D5-4D54-8AD2-317DAF7B7DDE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{07835ED8-F8D5-4D54-8AD2-317DAF7B7DDE}.Debug|Win32.Build.0 = Debug|Win32
+		{07835ED8-F8D5-4D54-8AD2-317DAF7B7DDE}.Release|Win32.ActiveCfg = Release|Win32
+		{07835ED8-F8D5-4D54-8AD2-317DAF7B7DDE}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
