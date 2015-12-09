@@ -87,6 +87,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Valid Sudoku", "Valid Sudok
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Length of Last Word", "Length of Last Word\Length of Last Word.vcxproj", "{3A997EA3-B35A-460F-8D8E-25EA27414505}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Rectangle Area", "Rectangle Area\Rectangle Area.vcxproj", "{C8AE9CB9-6E28-41EB-9C1D-85E507B35CC9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -261,6 +263,10 @@ Global
 		{3A997EA3-B35A-460F-8D8E-25EA27414505}.Debug|Win32.Build.0 = Debug|Win32
 		{3A997EA3-B35A-460F-8D8E-25EA27414505}.Release|Win32.ActiveCfg = Release|Win32
 		{3A997EA3-B35A-460F-8D8E-25EA27414505}.Release|Win32.Build.0 = Release|Win32
+		{C8AE9CB9-6E28-41EB-9C1D-85E507B35CC9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C8AE9CB9-6E28-41EB-9C1D-85E507B35CC9}.Debug|Win32.Build.0 = Debug|Win32
+		{C8AE9CB9-6E28-41EB-9C1D-85E507B35CC9}.Release|Win32.ActiveCfg = Release|Win32
+		{C8AE9CB9-6E28-41EB-9C1D-85E507B35CC9}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
