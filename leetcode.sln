@@ -93,6 +93,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Contains Duplicate II", "Co
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Remove Nth Node From End of List", "Remove Nth Node From End of List\Remove Nth Node From End of List.vcxproj", "{4532DCDD-5608-4EA8-8808-3883EDCA5CE2}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Valid Parentheses", "Valid Parentheses\Valid Parentheses.vcxproj", "{F75218FA-A502-4ECD-8BF1-22F6B2F20D3A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -279,6 +281,10 @@ Global
 		{4532DCDD-5608-4EA8-8808-3883EDCA5CE2}.Debug|Win32.Build.0 = Debug|Win32
 		{4532DCDD-5608-4EA8-8808-3883EDCA5CE2}.Release|Win32.ActiveCfg = Release|Win32
 		{4532DCDD-5608-4EA8-8808-3883EDCA5CE2}.Release|Win32.Build.0 = Release|Win32
+		{F75218FA-A502-4ECD-8BF1-22F6B2F20D3A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F75218FA-A502-4ECD-8BF1-22F6B2F20D3A}.Debug|Win32.Build.0 = Debug|Win32
+		{F75218FA-A502-4ECD-8BF1-22F6B2F20D3A}.Release|Win32.ActiveCfg = Release|Win32
+		{F75218FA-A502-4ECD-8BF1-22F6B2F20D3A}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
