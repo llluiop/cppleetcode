@@ -7,10 +7,10 @@ using namespace std;
 class Solution {
 public:
 	string countAndSay(int n) {
-		stringstream str;
+		
 		string now = "1";
-
-		while (n > 0)
+		stringstream str(now);
+		while (n > 1)
 		{
 			str.str("");
 			char pre = now[0];
@@ -50,6 +50,6 @@ int main()
 
 	Solution s;
 
-	cout << s.countAndSay(5);
+	cout << s.countAndSay(1);
 	return getchar();
 }
