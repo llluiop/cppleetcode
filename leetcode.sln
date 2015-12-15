@@ -105,6 +105,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Count and Say", "Count and 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Longest Common Prefix", "Longest Common Prefix\Longest Common Prefix.vcxproj", "{2F91257A-8F2F-4159-9BFD-484EC2E11913}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Bulls and Cows", "Bulls and Cows\Bulls and Cows.vcxproj", "{E8DA4047-1C2E-4AE3-8A00-3EC51E913657}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -315,6 +317,10 @@ Global
 		{2F91257A-8F2F-4159-9BFD-484EC2E11913}.Debug|Win32.Build.0 = Debug|Win32
 		{2F91257A-8F2F-4159-9BFD-484EC2E11913}.Release|Win32.ActiveCfg = Release|Win32
 		{2F91257A-8F2F-4159-9BFD-484EC2E11913}.Release|Win32.Build.0 = Release|Win32
+		{E8DA4047-1C2E-4AE3-8A00-3EC51E913657}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E8DA4047-1C2E-4AE3-8A00-3EC51E913657}.Debug|Win32.Build.0 = Debug|Win32
+		{E8DA4047-1C2E-4AE3-8A00-3EC51E913657}.Release|Win32.ActiveCfg = Release|Win32
+		{E8DA4047-1C2E-4AE3-8A00-3EC51E913657}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
