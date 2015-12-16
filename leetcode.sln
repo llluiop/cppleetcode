@@ -107,6 +107,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Longest Common Prefix", "Lo
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Bulls and Cows", "Bulls and Cows\Bulls and Cows.vcxproj", "{E8DA4047-1C2E-4AE3-8A00-3EC51E913657}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Add Binary", "Add Binary\Add Binary.vcxproj", "{BA5C3B59-046C-4ED3-B5A9-2685C469769F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -321,6 +323,10 @@ Global
 		{E8DA4047-1C2E-4AE3-8A00-3EC51E913657}.Debug|Win32.Build.0 = Debug|Win32
 		{E8DA4047-1C2E-4AE3-8A00-3EC51E913657}.Release|Win32.ActiveCfg = Release|Win32
 		{E8DA4047-1C2E-4AE3-8A00-3EC51E913657}.Release|Win32.Build.0 = Release|Win32
+		{BA5C3B59-046C-4ED3-B5A9-2685C469769F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BA5C3B59-046C-4ED3-B5A9-2685C469769F}.Debug|Win32.Build.0 = Debug|Win32
+		{BA5C3B59-046C-4ED3-B5A9-2685C469769F}.Release|Win32.ActiveCfg = Release|Win32
+		{BA5C3B59-046C-4ED3-B5A9-2685C469769F}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
