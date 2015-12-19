@@ -3,7 +3,8 @@
 
 using namespace std;
 
-
+// (2,5)这个区间，可以是减区间的办法(0,5)-(0,2)，
+// 也可是是加区间(2,x,5)， 本题思考的点就在于减区间适用[12/19/2015 liuyu]
 class NumArray {
 public:
 	NumArray(vector<int> &nums) {

@@ -115,6 +115,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Binary Tree Paths", "Binary
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Range Sum Query", "Range Sum Query\Range Sum Query.vcxproj", "{76E71949-ABD1-4232-ACD2-17A6FA1FD4CD}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Implement strStr()", "Implement strStr()\Implement strStr().vcxproj", "{DD5FD4DE-C601-4E23-AF4A-178E13F9B1F4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -345,6 +347,10 @@ Global
 		{76E71949-ABD1-4232-ACD2-17A6FA1FD4CD}.Debug|Win32.Build.0 = Debug|Win32
 		{76E71949-ABD1-4232-ACD2-17A6FA1FD4CD}.Release|Win32.ActiveCfg = Release|Win32
 		{76E71949-ABD1-4232-ACD2-17A6FA1FD4CD}.Release|Win32.Build.0 = Release|Win32
+		{DD5FD4DE-C601-4E23-AF4A-178E13F9B1F4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DD5FD4DE-C601-4E23-AF4A-178E13F9B1F4}.Debug|Win32.Build.0 = Debug|Win32
+		{DD5FD4DE-C601-4E23-AF4A-178E13F9B1F4}.Release|Win32.ActiveCfg = Release|Win32
+		{DD5FD4DE-C601-4E23-AF4A-178E13F9B1F4}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
