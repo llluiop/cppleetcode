@@ -121,6 +121,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Reverse Integer", "Reverse 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Valid Palindrome", "Valid Palindrome\Valid Palindrome.vcxproj", "{A7DCBA21-AD58-487D-9D11-94FD184D882A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ZigZag Conversion", "ZigZag Conversion\ZigZag Conversion.vcxproj", "{1D5C08A1-E03B-4C44-8BD9-50C8D8EFDF2E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -363,6 +365,10 @@ Global
 		{A7DCBA21-AD58-487D-9D11-94FD184D882A}.Debug|Win32.Build.0 = Debug|Win32
 		{A7DCBA21-AD58-487D-9D11-94FD184D882A}.Release|Win32.ActiveCfg = Release|Win32
 		{A7DCBA21-AD58-487D-9D11-94FD184D882A}.Release|Win32.Build.0 = Release|Win32
+		{1D5C08A1-E03B-4C44-8BD9-50C8D8EFDF2E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1D5C08A1-E03B-4C44-8BD9-50C8D8EFDF2E}.Debug|Win32.Build.0 = Debug|Win32
+		{1D5C08A1-E03B-4C44-8BD9-50C8D8EFDF2E}.Release|Win32.ActiveCfg = Release|Win32
+		{1D5C08A1-E03B-4C44-8BD9-50C8D8EFDF2E}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
