@@ -135,6 +135,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Best Time to Buy and Sell S
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Product of Array Except Self", "Product of Array Except Self\Product of Array Except Self.vcxproj", "{AA6C3C28-C708-4A6E-BED6-9340212B62EC}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Binary Tree Preorder Traversal", "Binary Tree Preorder Traversal\Binary Tree Preorder Traversal.vcxproj", "{AE9E7EB9-1809-49D9-B9BC-9BB8CFCBB38B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -405,6 +407,10 @@ Global
 		{AA6C3C28-C708-4A6E-BED6-9340212B62EC}.Debug|Win32.Build.0 = Debug|Win32
 		{AA6C3C28-C708-4A6E-BED6-9340212B62EC}.Release|Win32.ActiveCfg = Release|Win32
 		{AA6C3C28-C708-4A6E-BED6-9340212B62EC}.Release|Win32.Build.0 = Release|Win32
+		{AE9E7EB9-1809-49D9-B9BC-9BB8CFCBB38B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AE9E7EB9-1809-49D9-B9BC-9BB8CFCBB38B}.Debug|Win32.Build.0 = Debug|Win32
+		{AE9E7EB9-1809-49D9-B9BC-9BB8CFCBB38B}.Release|Win32.ActiveCfg = Release|Win32
+		{AE9E7EB9-1809-49D9-B9BC-9BB8CFCBB38B}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
