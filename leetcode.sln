@@ -139,6 +139,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Binary Tree Preorder Traver
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Binary Tree Inorder Traversal", "Binary Tree Inorder Traversal\Binary Tree Inorder Traversal.vcxproj", "{CF3B44E1-80EB-4EB5-849D-EE46DA2603B0}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Missing Number", "Missing Number\Missing Number.vcxproj", "{E6D9EBC0-7FC4-43CD-9AF2-F986C226FCBC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -417,6 +419,10 @@ Global
 		{CF3B44E1-80EB-4EB5-849D-EE46DA2603B0}.Debug|Win32.Build.0 = Debug|Win32
 		{CF3B44E1-80EB-4EB5-849D-EE46DA2603B0}.Release|Win32.ActiveCfg = Release|Win32
 		{CF3B44E1-80EB-4EB5-849D-EE46DA2603B0}.Release|Win32.Build.0 = Release|Win32
+		{E6D9EBC0-7FC4-43CD-9AF2-F986C226FCBC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E6D9EBC0-7FC4-43CD-9AF2-F986C226FCBC}.Debug|Win32.Build.0 = Debug|Win32
+		{E6D9EBC0-7FC4-43CD-9AF2-F986C226FCBC}.Release|Win32.ActiveCfg = Release|Win32
+		{E6D9EBC0-7FC4-43CD-9AF2-F986C226FCBC}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
