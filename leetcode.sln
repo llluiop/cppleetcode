@@ -141,6 +141,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Binary Tree Inorder Travers
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Missing Number", "Missing Number\Missing Number.vcxproj", "{E6D9EBC0-7FC4-43CD-9AF2-F986C226FCBC}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Bulb Switcher", "Bulb Switcher\Bulb Switcher.vcxproj", "{2C0C1B75-4B8A-4F2E-9198-295EE9049F1F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -423,6 +425,10 @@ Global
 		{E6D9EBC0-7FC4-43CD-9AF2-F986C226FCBC}.Debug|Win32.Build.0 = Debug|Win32
 		{E6D9EBC0-7FC4-43CD-9AF2-F986C226FCBC}.Release|Win32.ActiveCfg = Release|Win32
 		{E6D9EBC0-7FC4-43CD-9AF2-F986C226FCBC}.Release|Win32.Build.0 = Release|Win32
+		{2C0C1B75-4B8A-4F2E-9198-295EE9049F1F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2C0C1B75-4B8A-4F2E-9198-295EE9049F1F}.Debug|Win32.Build.0 = Debug|Win32
+		{2C0C1B75-4B8A-4F2E-9198-295EE9049F1F}.Release|Win32.ActiveCfg = Release|Win32
+		{2C0C1B75-4B8A-4F2E-9198-295EE9049F1F}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
