@@ -6,8 +6,7 @@ using namespace std;
 class Solution {
 public:
 	bool isPowerOfThree(int n) {
-		int tmp = round(log(n) / log(3));
-		return n <= 0 ? false : n == pow(3, tmp);
+		return n <= 0 ? false : n == pow(3, round(log(n) / log(3)));
 	}
 };
 
