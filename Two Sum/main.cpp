@@ -33,6 +33,6 @@ public:
 int main()
 {
 	Solution s;
-	auto v = s.twoSum(vector<int>{2, 4, 11, 7}, 9);
+	auto v = s.twoSum(vector<int>{3, 4, 2, 5, 6, 1, 8, 9}, 15);
 	return getchar();
 }
