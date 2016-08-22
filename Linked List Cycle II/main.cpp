@@ -1,5 +1,7 @@
 #include <iostream>
+#include <set>
 
+using namespace std;
 
 struct ListNode {
 	int val;
@@ -7,13 +9,37 @@ struct ListNode {
 	ListNode(int x) : val(x), next(NULL) {}
 };
 
+// class Solution {
+// public:
+// 	ListNode *detectCycle(ListNode *head) {
+// 		set<ListNode*> s;
+// 
+// 		ListNode* node = nullptr;
+// 		while (head != nullptr)
+// 		{
+// 			if (s.find(head) != s.end())
+// 			{
+// 				node = head;
+// 				return node;
+// 			}
+// 			s.insert(head);
+// 
+// 			head = head->next;
+// 		}
+// 
+// 		return nullptr;
+// 	}
+// };
+
 class Solution {
 public:
-	bool hasCycle(ListNode *head) {
+	ListNode *detectCycle(ListNode *head) {
 		if (head == nullptr || head->next == nullptr)
 		{
-			return false;
+			return nullptr;
 		}
+
+		ListNode* entry = head;
 
 		ListNode* p1 = head;
 		ListNode* p2 = head;
@@ -23,12 +49,25 @@ public:
 			p2 = p2->next->next;
 
 			if (p1 == p2)
-				return true;
+			{
+				while (entry != p1)
+				{
+					entry = entry->next;
+					p1 = p1->next;
+				}
+
+				return entry;
+			}
+
+
 		}
 
-		return false;
+		return nullptr;
 	}
 };
+
+
+
 
 
 int main()
@@ -47,7 +86,7 @@ int main()
 	node4->next = node5;
 	node5->next = node2;
 
-	std::cout << s.hasCycle(node1);
+	std::cout << s.detectCycle(node1);
 
 
 	return getchar();
