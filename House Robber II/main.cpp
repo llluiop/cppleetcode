@@ -10,11 +10,11 @@ class Solution {
 public:
 	int rob(vector<int>& nums) {
 		if (nums.size() == 0) return 0;
-		if (nums.size() <= 2)
-		{
-			sort(nums.begin(), nums.end());
-			return nums[nums.size() - 1];
-		}
+// 		if (nums.size() <= 2)
+// 		{
+// 			sort(nums.begin(), nums.end());
+// 			return nums[nums.size() - 1];
+// 		}
 
 		int* dp = new int[nums.size()];
 		for (int i = 0; i < nums.size(); i++)
@@ -45,6 +45,6 @@ public:
 int main()
 {
 	Solution s;
-	s.rob(vector<int>{1,2,1,1});
+	s.rob(vector<int>{1});
 	return getchar();
 }
