@@ -15,18 +15,29 @@ public:
 			sort(nums.begin(), nums.end());
 			return nums[nums.size() - 1];
 		}
-		int* dp = new int[nums.size() + 1];
-		for (int i = 0; i <= nums.size(); i++)
+
+		int* dp = new int[nums.size()];
+		for (int i = 0; i < nums.size(); i++)
 			dp[i] = 0;
 
 		dp[1] = nums[0];
 
-		for (int i = 2; i <= nums.size(); i++)
+		for (int i = 2; i < nums.size(); i++)
 		{
 			dp[i] = max(dp[i - 1], dp[i - 2] + nums[i - 1]);
 		}
-		if (dp[1] >= dp[0] + nums[0]) return dp[nums.size() - 1];
-		else return dp[nums.size()];
+
+		int maxcount = dp[nums.size() - 1];
+
+		dp[1] = nums[1];
+		for (int i = 2; i < nums.size(); i++)
+		{
+			dp[i] = max(dp[i - 1], dp[i - 2] + nums[i]);
+		}
+
+		maxcount = max(maxcount, dp[nums.size() - 1]);
+
+		return maxcount;
 	}
 
 };
@@ -34,6 +45,6 @@ public:
 int main()
 {
 	Solution s;
-	s.gameOfLife(vector<vector<int>>{});
+	s.rob(vector<int>{1,2,1,1});
 	return getchar();
 }
