@@ -24,7 +24,7 @@ public:
 			}
 		}
 
-		apply(m, board);
+		nextGeneration(m, board);
 	}
 
 	void state(int i, int j, tuple<int, int>& live_dead, map<pair<int, int>, int>& m, vector<vector<int>>& board)
@@ -45,7 +45,7 @@ public:
 		}
 	}
 
-	void apply(map<pair<int, int>, int>& m, vector<vector<int>>& board)
+	void nextGeneration(map<pair<int, int>, int>& m, vector<vector<int>>& board)
 	{
 		for (auto iter = m.begin(); iter != m.end(); iter++)
 		{
