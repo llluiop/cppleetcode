@@ -6,61 +6,42 @@
 #include <map>
 #include <string>
 #include <unordered_map>
-#include <set>
+#include <queue>
 #include <numeric>
 using namespace std;
 
-class NestedInteger {
+
+
+class MovingAverage {
 public:
-	// Return true if this NestedInteger holds a single integer, rather than a nested list.
-	bool isInteger() const;
+	MovingAverage(int size) {
+		size_ = size;
+		sum_ = 0;
+	}
 
-	// Return the single integer that this NestedInteger holds, if it holds a single integer
-	// The result is undefined if this NestedInteger holds a nested list
-	int getInteger() const;
-
-	// Return the nested list that this NestedInteger holds, if it holds a nested list
-	// The result is undefined if this NestedInteger holds a single integer
-	const vector<NestedInteger> &getList() const;
-
-};
-
-
-
-class Logger {
-public:
-	Logger() {}
-
-	bool shouldPrintMessage(int timestamp, string message) {
-		if (m.find(message) != m.end())
+	double next(int val) {
+		if (q_.size() == size_)
 		{
-			m[message] = timestamp;
-			return true;
+			sum_ -= q_.front();
+			q_.pop();
 		}
-		else
-		{
-			auto last_time = m[message];
-		
-			if (timestamp - last_time <= 10)
-			{
-				return false;
-			}
-			else
-			{
-				m[message] = timestamp;
-				return true;
-			}
-		}
+
+		q_.push(val);
+		sum_ += val;
+
+		return sum_ / q_.size();
 	}
 
 private:
-	unordered_map<string, int> m;
+	int size_;
+	queue<int> q_;
+	double sum_;
 };
 
 
 int main()
 {
-	Logger s;
+	MovingAverage m(1);
 	return getchar();
 }
 
