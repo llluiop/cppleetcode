@@ -56,7 +56,7 @@ public:
 			ListNode* tmp = new ListNode(val % 10);
 			if (head == nullptr)
 			{
-				head = tmp;
+				cur = head = tmp;
 			}
 			else
 			{
@@ -64,29 +64,32 @@ public:
 				cur = cur->next;
 			}
 			carry = val / 10;
+			l1 = l1->next;
+			l2 = l2->next;
 		}
 
-		if (l1 == nullptr && l2 == nullptr)
-		{
-			if (carry != 0)
-			{
-				ListNode* tmp = new ListNode(carry);
-				cur->next = tmp;
-			}
-		}
-		else
-		{
-			ListNode* left = (l1 == nullptr ? l2 : l1);
-			while (left != nullptr)
-			{
-				int val = left->val + carry;
-				ListNode* tmp = new ListNode(val % 10);
-				cur->next = tmp;
-				cur = cur->next;
 
-				carry = val / 10;
-			}
+
+		ListNode* left = (l1 == nullptr ? l2 : l1);
+		while (left != nullptr)
+		{
+			int val = left->val + carry;
+			ListNode* tmp = new ListNode(val % 10);
+			cur->next = tmp;
+			cur = cur->next;
+
+			carry = val / 10;
+
+			left = left->next;
 		}
+
+
+		if (carry != 0)
+		{
+			ListNode* tmp = new ListNode(carry);
+			cur->next = tmp;
+		}
+
 
 		return reverseList(head);
 	}
@@ -96,23 +99,23 @@ public:
 int main()
 {
 	Solution s;
-	ListNode* l11 = new ListNode(7);
-	ListNode* l12 = new ListNode(2);
-	ListNode* l13 = new ListNode(4);
-	ListNode* l14 = new ListNode(3);
+	ListNode* l11 = new ListNode(1);
+	//ListNode* l12 = new ListNode(2);
+	//ListNode* l13 = new ListNode(4);
+	//ListNode* l14 = new ListNode(3);
 
-	l11->next = l12;
-	l12->next = l13;
-	l13->next = l14;
-	l14->next = nullptr;
+	l11->next = nullptr;
+	//l12->next = l13;
+	//l13->next = l14;
+	//l14->next = nullptr;
 
-	ListNode* l21 = new ListNode(5);
-	ListNode* l22 = new ListNode(6);
-	ListNode* l23 = new ListNode(4);
+	ListNode* l21 = new ListNode(9);
+	ListNode* l22 = new ListNode(9);
+	//ListNode* l23 = new ListNode(4);
 
 	l21->next = l22;
-	l22->next = l23;
-	l13->next = nullptr;
+	l22->next = nullptr;
+	//l23->next = nullptr;
 
 	s.addTwoNumbers(l11, l21);
 	return getchar();
