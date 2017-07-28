@@ -12,3 +12,5 @@
 *.idb
 *.obj
 *.ilk
+/leetcode.VC.db
+/leetcode.VC.VC.opendb
