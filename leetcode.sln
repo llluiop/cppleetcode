@@ -241,6 +241,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Gray Code", "Gray Code\Gray
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Target Sum", "Target Sum\Target Sum.vcxproj", "{EA10EBDE-5767-442F-B434-E547A43486E4}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Single Element in a Sorted Array", "Single Element in a Sorted Array\Single Element in a Sorted Array.vcxproj", "{D5DAF31E-8422-475D-98DD-7A2E9CA05A50}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -965,6 +967,14 @@ Global
 		{EA10EBDE-5767-442F-B434-E547A43486E4}.Release|Win32.Build.0 = Release|Win32
 		{EA10EBDE-5767-442F-B434-E547A43486E4}.Release|x64.ActiveCfg = Release|x64
 		{EA10EBDE-5767-442F-B434-E547A43486E4}.Release|x64.Build.0 = Release|x64
+		{D5DAF31E-8422-475D-98DD-7A2E9CA05A50}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D5DAF31E-8422-475D-98DD-7A2E9CA05A50}.Debug|Win32.Build.0 = Debug|Win32
+		{D5DAF31E-8422-475D-98DD-7A2E9CA05A50}.Debug|x64.ActiveCfg = Debug|x64
+		{D5DAF31E-8422-475D-98DD-7A2E9CA05A50}.Debug|x64.Build.0 = Debug|x64
+		{D5DAF31E-8422-475D-98DD-7A2E9CA05A50}.Release|Win32.ActiveCfg = Release|Win32
+		{D5DAF31E-8422-475D-98DD-7A2E9CA05A50}.Release|Win32.Build.0 = Release|Win32
+		{D5DAF31E-8422-475D-98DD-7A2E9CA05A50}.Release|x64.ActiveCfg = Release|x64
+		{D5DAF31E-8422-475D-98DD-7A2E9CA05A50}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
