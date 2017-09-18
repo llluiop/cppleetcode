@@ -243,6 +243,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Target Sum", "Target Sum\Ta
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Single Element in a Sorted Array", "Single Element in a Sorted Array\Single Element in a Sorted Array.vcxproj", "{D5DAF31E-8422-475D-98DD-7A2E9CA05A50}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Judge Route Circle", "Judge Route Circle\Judge Route Circle.vcxproj", "{1D995F4E-0494-465B-921E-30D076B256D8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -975,6 +977,14 @@ Global
 		{D5DAF31E-8422-475D-98DD-7A2E9CA05A50}.Release|Win32.Build.0 = Release|Win32
 		{D5DAF31E-8422-475D-98DD-7A2E9CA05A50}.Release|x64.ActiveCfg = Release|x64
 		{D5DAF31E-8422-475D-98DD-7A2E9CA05A50}.Release|x64.Build.0 = Release|x64
+		{1D995F4E-0494-465B-921E-30D076B256D8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1D995F4E-0494-465B-921E-30D076B256D8}.Debug|Win32.Build.0 = Debug|Win32
+		{1D995F4E-0494-465B-921E-30D076B256D8}.Debug|x64.ActiveCfg = Debug|x64
+		{1D995F4E-0494-465B-921E-30D076B256D8}.Debug|x64.Build.0 = Debug|x64
+		{1D995F4E-0494-465B-921E-30D076B256D8}.Release|Win32.ActiveCfg = Release|Win32
+		{1D995F4E-0494-465B-921E-30D076B256D8}.Release|Win32.Build.0 = Release|Win32
+		{1D995F4E-0494-465B-921E-30D076B256D8}.Release|x64.ActiveCfg = Release|x64
+		{1D995F4E-0494-465B-921E-30D076B256D8}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
