@@ -22,7 +22,7 @@ public:
 		return true;
 	}
 
-	bool is_palindrome(string s) 
+	bool is_palindrome(string s)
 	{
 		for (int i = 0; i < s.size()/2; i++)
 		{
