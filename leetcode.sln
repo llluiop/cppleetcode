@@ -249,6 +249,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Valid Palindrome II", "Vali
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Maximum Binary Tree", "Maximum Binary Tree\Maximum Binary Tree.vcxproj", "{FAF9A1F7-8E1C-4351-AAAE-94981C2AD09D}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Maximum Average Subarray I", "Maximum Average Subarray I\Maximum Average Subarray I.vcxproj", "{A9D7699A-2264-4A66-BC42-9660F34F438F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -1005,6 +1007,14 @@ Global
 		{FAF9A1F7-8E1C-4351-AAAE-94981C2AD09D}.Release|Win32.Build.0 = Release|Win32
 		{FAF9A1F7-8E1C-4351-AAAE-94981C2AD09D}.Release|x64.ActiveCfg = Release|x64
 		{FAF9A1F7-8E1C-4351-AAAE-94981C2AD09D}.Release|x64.Build.0 = Release|x64
+		{A9D7699A-2264-4A66-BC42-9660F34F438F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A9D7699A-2264-4A66-BC42-9660F34F438F}.Debug|Win32.Build.0 = Debug|Win32
+		{A9D7699A-2264-4A66-BC42-9660F34F438F}.Debug|x64.ActiveCfg = Debug|x64
+		{A9D7699A-2264-4A66-BC42-9660F34F438F}.Debug|x64.Build.0 = Debug|x64
+		{A9D7699A-2264-4A66-BC42-9660F34F438F}.Release|Win32.ActiveCfg = Release|Win32
+		{A9D7699A-2264-4A66-BC42-9660F34F438F}.Release|Win32.Build.0 = Release|Win32
+		{A9D7699A-2264-4A66-BC42-9660F34F438F}.Release|x64.ActiveCfg = Release|x64
+		{A9D7699A-2264-4A66-BC42-9660F34F438F}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
