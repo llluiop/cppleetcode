@@ -253,6 +253,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Maximum Average Subarray I"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Permutation in String", "Permutation in String\Permutation in String.vcxproj", "{85A255E7-6F7B-4835-83A4-78793DAEE2BD}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Subarray Sum Equals K", "Subarray Sum Equals K\Subarray Sum Equals K.vcxproj", "{E95BDD0F-CE92-406D-8F84-AFECCFD073DC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -1025,6 +1027,14 @@ Global
 		{85A255E7-6F7B-4835-83A4-78793DAEE2BD}.Release|Win32.Build.0 = Release|Win32
 		{85A255E7-6F7B-4835-83A4-78793DAEE2BD}.Release|x64.ActiveCfg = Release|x64
 		{85A255E7-6F7B-4835-83A4-78793DAEE2BD}.Release|x64.Build.0 = Release|x64
+		{E95BDD0F-CE92-406D-8F84-AFECCFD073DC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E95BDD0F-CE92-406D-8F84-AFECCFD073DC}.Debug|Win32.Build.0 = Debug|Win32
+		{E95BDD0F-CE92-406D-8F84-AFECCFD073DC}.Debug|x64.ActiveCfg = Debug|x64
+		{E95BDD0F-CE92-406D-8F84-AFECCFD073DC}.Debug|x64.Build.0 = Debug|x64
+		{E95BDD0F-CE92-406D-8F84-AFECCFD073DC}.Release|Win32.ActiveCfg = Release|Win32
+		{E95BDD0F-CE92-406D-8F84-AFECCFD073DC}.Release|Win32.Build.0 = Release|Win32
+		{E95BDD0F-CE92-406D-8F84-AFECCFD073DC}.Release|x64.ActiveCfg = Release|x64
+		{E95BDD0F-CE92-406D-8F84-AFECCFD073DC}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
