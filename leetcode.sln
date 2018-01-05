@@ -255,6 +255,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Permutation in String", "Pe
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Subarray Sum Equals K", "Subarray Sum Equals K\Subarray Sum Equals K.vcxproj", "{E95BDD0F-CE92-406D-8F84-AFECCFD073DC}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Max Area of Island", "Max Area of Island\Max Area of Island.vcxproj", "{602C4FAB-F580-4AEB-A9CD-3AA43AB84E8A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -1035,6 +1037,14 @@ Global
 		{E95BDD0F-CE92-406D-8F84-AFECCFD073DC}.Release|Win32.Build.0 = Release|Win32
 		{E95BDD0F-CE92-406D-8F84-AFECCFD073DC}.Release|x64.ActiveCfg = Release|x64
 		{E95BDD0F-CE92-406D-8F84-AFECCFD073DC}.Release|x64.Build.0 = Release|x64
+		{602C4FAB-F580-4AEB-A9CD-3AA43AB84E8A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{602C4FAB-F580-4AEB-A9CD-3AA43AB84E8A}.Debug|Win32.Build.0 = Debug|Win32
+		{602C4FAB-F580-4AEB-A9CD-3AA43AB84E8A}.Debug|x64.ActiveCfg = Debug|x64
+		{602C4FAB-F580-4AEB-A9CD-3AA43AB84E8A}.Debug|x64.Build.0 = Debug|x64
+		{602C4FAB-F580-4AEB-A9CD-3AA43AB84E8A}.Release|Win32.ActiveCfg = Release|Win32
+		{602C4FAB-F580-4AEB-A9CD-3AA43AB84E8A}.Release|Win32.Build.0 = Release|Win32
+		{602C4FAB-F580-4AEB-A9CD-3AA43AB84E8A}.Release|x64.ActiveCfg = Release|x64
+		{602C4FAB-F580-4AEB-A9CD-3AA43AB84E8A}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
