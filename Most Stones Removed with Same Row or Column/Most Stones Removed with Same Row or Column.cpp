@@ -12,8 +12,8 @@ public:
 	int* pre;
 	int removeStones(vector<vector<int>> stones) {
 		int len = stones.size();
-		pre = new int[100000];
-		for (int i = 0; i < 100000; i++) {
+		pre = new int[20000];
+		for (int i = 0; i < 20000; i++) {
 			pre[i] = i;
 		}
 
