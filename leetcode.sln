@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29424.173
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Distinct SubSequences", "Distinct SubSequences\Distinct SubSequences.vcxproj", "{8E8538BC-AEB9-49EA-951E-FFC062DC2049}"
 EndProject
@@ -256,6 +256,8 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Subarray Sum Equals K", "Subarray Sum Equals K\Subarray Sum Equals K.vcxproj", "{E95BDD0F-CE92-406D-8F84-AFECCFD073DC}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Max Area of Island", "Max Area of Island\Max Area of Island.vcxproj", "{602C4FAB-F580-4AEB-A9CD-3AA43AB84E8A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Most Stones Removed with Same Row or Column", "Most Stones Removed with Same Row or Column\Most Stones Removed with Same Row or Column.vcxproj", "{5B461418-3561-4EF7-A6BF-06D7CAA297F7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -1045,8 +1047,19 @@ Global
 		{602C4FAB-F580-4AEB-A9CD-3AA43AB84E8A}.Release|Win32.Build.0 = Release|Win32
 		{602C4FAB-F580-4AEB-A9CD-3AA43AB84E8A}.Release|x64.ActiveCfg = Release|x64
 		{602C4FAB-F580-4AEB-A9CD-3AA43AB84E8A}.Release|x64.Build.0 = Release|x64
+		{5B461418-3561-4EF7-A6BF-06D7CAA297F7}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5B461418-3561-4EF7-A6BF-06D7CAA297F7}.Debug|Win32.Build.0 = Debug|Win32
+		{5B461418-3561-4EF7-A6BF-06D7CAA297F7}.Debug|x64.ActiveCfg = Debug|x64
+		{5B461418-3561-4EF7-A6BF-06D7CAA297F7}.Debug|x64.Build.0 = Debug|x64
+		{5B461418-3561-4EF7-A6BF-06D7CAA297F7}.Release|Win32.ActiveCfg = Release|Win32
+		{5B461418-3561-4EF7-A6BF-06D7CAA297F7}.Release|Win32.Build.0 = Release|Win32
+		{5B461418-3561-4EF7-A6BF-06D7CAA297F7}.Release|x64.ActiveCfg = Release|x64
+		{5B461418-3561-4EF7-A6BF-06D7CAA297F7}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {065B7A18-6359-4728-9AEE-8ADB7355B348}
 	EndGlobalSection
 EndGlobal
