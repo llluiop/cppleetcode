@@ -259,6 +259,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Max Area of Island", "Max A
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Most Stones Removed with Same Row or Column", "Most Stones Removed with Same Row or Column\Most Stones Removed with Same Row or Column.vcxproj", "{5B461418-3561-4EF7-A6BF-06D7CAA297F7}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Clumsy", "Clumsy\Clumsy.vcxproj", "{AEBC426E-53AD-4E37-9CB5-1FA4F556EE82}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Next Greater", "Next Greater\Next Greater.vcxproj", "{2CB9CA12-4E71-481B-B4C9-EB70B26880E9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -1055,6 +1059,22 @@ Global
 		{5B461418-3561-4EF7-A6BF-06D7CAA297F7}.Release|Win32.Build.0 = Release|Win32
 		{5B461418-3561-4EF7-A6BF-06D7CAA297F7}.Release|x64.ActiveCfg = Release|x64
 		{5B461418-3561-4EF7-A6BF-06D7CAA297F7}.Release|x64.Build.0 = Release|x64
+		{AEBC426E-53AD-4E37-9CB5-1FA4F556EE82}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AEBC426E-53AD-4E37-9CB5-1FA4F556EE82}.Debug|Win32.Build.0 = Debug|Win32
+		{AEBC426E-53AD-4E37-9CB5-1FA4F556EE82}.Debug|x64.ActiveCfg = Debug|x64
+		{AEBC426E-53AD-4E37-9CB5-1FA4F556EE82}.Debug|x64.Build.0 = Debug|x64
+		{AEBC426E-53AD-4E37-9CB5-1FA4F556EE82}.Release|Win32.ActiveCfg = Release|Win32
+		{AEBC426E-53AD-4E37-9CB5-1FA4F556EE82}.Release|Win32.Build.0 = Release|Win32
+		{AEBC426E-53AD-4E37-9CB5-1FA4F556EE82}.Release|x64.ActiveCfg = Release|x64
+		{AEBC426E-53AD-4E37-9CB5-1FA4F556EE82}.Release|x64.Build.0 = Release|x64
+		{2CB9CA12-4E71-481B-B4C9-EB70B26880E9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2CB9CA12-4E71-481B-B4C9-EB70B26880E9}.Debug|Win32.Build.0 = Debug|Win32
+		{2CB9CA12-4E71-481B-B4C9-EB70B26880E9}.Debug|x64.ActiveCfg = Debug|x64
+		{2CB9CA12-4E71-481B-B4C9-EB70B26880E9}.Debug|x64.Build.0 = Debug|x64
+		{2CB9CA12-4E71-481B-B4C9-EB70B26880E9}.Release|Win32.ActiveCfg = Release|Win32
+		{2CB9CA12-4E71-481B-B4C9-EB70B26880E9}.Release|Win32.Build.0 = Release|Win32
+		{2CB9CA12-4E71-481B-B4C9-EB70B26880E9}.Release|x64.ActiveCfg = Release|x64
+		{2CB9CA12-4E71-481B-B4C9-EB70B26880E9}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
